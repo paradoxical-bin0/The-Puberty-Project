@@ -1,0 +1,68 @@
+body {
+  background-color: #b6c5ee;
+}
+
+nav {
+  background-color: #c5d1f1;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  line-height: 50px;
+}
+.Header {
+  background-color: #c5d1f1;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-size: 200%;
+  font-family: "Gochi Hand", cursive;
+  line-height: 2;
+  background-size: 0% 100%;
+}
+
+.blog-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.blog-box {
+  width: 30%;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.blog-box img {
+  width: 100%;
+  height: 80%;
+}
+
+.blog-box h2 {
+  margin: 5px, auto, 5px, auto;
+  font-size: 26px;
+  text-align: center;
+}
