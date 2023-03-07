@@ -1,45 +1,12 @@
-body {
-  background-color: #b6c5ee;
-}
-
-nav {
-  background-color: #c5d1f1;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50px;
-}
-
-nav ul {
-  list-style: none;
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300;400;500;600;700&family=Tilt+Prism&display=swap");
+* {
   margin: 0;
   padding: 0;
-  background-color: white;
-  display: flex;
+  box-sizing: border-box;
 }
-
-nav li {
-  margin: 0 10px;
-}
-
-nav a {
-  color: #333;
-  text-decoration: none;
-  font-size: 18px;
-  display: flex;
-  align-items: center;
-  height: 50px;
-  line-height: 50px;
-}
-.Header {
-  background-color: #c5d1f1;
-  margin-top: 0%;
-  margin-bottom: 0%;
-  font-size: 200%;
-  font-family: "Gochi Hand", cursive;
-  line-height: 2;
-  background-size: 0% 100%;
+body {
+  background-color: #f6f6f6;
+  font-family: "Poppins", sans-serif;
 }
 
 #img {
@@ -58,18 +25,17 @@ nav a {
 }
 
 p {
-  font-size: 130%;
+  /* font-size: 130%; */
   margin-right: 5%;
-  background-color: #c5d1f1;
   border-radius: 5%;
   padding: 3%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
 }
 
 #about {
-  background-color: white;
-  width: 60%;
-  font-size: 200%;
+  /* background-color: white; */
+  /* width: 60%; */
+  /* font-size: 200%; */
   margin-bottom: 1%;
   margin-top: 2%;
   margin-right: 8%;

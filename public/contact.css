@@ -1,45 +1,5 @@
 body {
-  background-color: #b6c5ee;
-}
-
-nav {
-  background-color: #c5d1f1;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50px;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  background-color: white;
-  display: flex;
-}
-
-nav li {
-  margin: 0 10px;
-}
-
-nav a {
-  color: #333;
-  text-decoration: none;
-  font-size: 18px;
-  display: flex;
-  align-items: center;
-  height: 50px;
-  line-height: 50px;
-}
-.Header {
-  background-color: #c5d1f1;
-  margin-top: 0%;
-  margin-bottom: 0%;
-  font-size: 200%;
-  font-family: "Gochi Hand", cursive;
-  line-height: 2;
-  background-size: 0% 100%;
+  background-color: #f6f6f6;
 }
 
 * {
@@ -49,58 +9,110 @@ nav a {
 }
 
 main {
-  max-width: 800px;
+  /* max-width: 800px; */
   margin: 0 auto;
   padding: 1em;
+  position: relative;
 }
 
-.contact-form {
-  margin-top: 2em;
+@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+@import url(https://fonts.googleapis.com/css?family=Lusitana:400,700);
+.align-center {
+  text-align: center;
 }
 
-.contact-form h1 {
-  font-size: 2em;
-  margin-bottom: 1em;
+.row {
+  margin: -20px 0;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row .col {
+  padding: 0 20px;
+  float: left;
+  box-sizing: border-box;
+}
+.row .col.x-50 {
+  width: 50%;
+}
+.row .col.x-100 {
+  width: 100%;
 }
 
-.contact-form label {
-  display: block;
-  margin-bottom: 0.5em;
+.content-wrapper {
+  min-height: 100%;
+  position: relative;
 }
 
-.contact-form input,
-.contact-form textarea {
+.get-in-touch {
+  max-width: 650px;
+  margin: 0 auto;
+  /* position: ; */
+  /* top: 50%; */
+  /* transform: translateY(-50%); */
+}
+.get-in-touch .title {
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 36px;
+  line-height: 48px;
+  padding-bottom: 48px;
+  font-weight: 100;
+}
+
+.contact-form .form-field {
+  position: relative;
+  margin: 32px 0;
+}
+.contact-form .input-text {
   display: block;
   width: 100%;
-  padding: 0.5em;
-  margin-bottom: 1em;
-  border: 2px solid #ccc;
-  border-radius: 4px;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  border-color: #000;
+  font-family: Lusitana, serif;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  padding-left: 7px;
+  background-color: #f6f6f6;
 }
-
-.contact-form input:focus,
-.contact-form textarea:focus {
+.contact-form .input-text:focus {
   outline: none;
-  border-color: #333;
 }
 
-.contact-form button[type="submit"] {
-  background-color: black;
+.contact-form .submit-btn {
+  display: inline-block;
+  background-color: #000;
   color: #fff;
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px 16px;
   border: none;
-  border-radius: 4px;
-  padding: 0.5em 1em;
   cursor: pointer;
 }
 
-.contact-form button[type="submit"]:hover {
-  background-color: #444;
-}
-
-footer {
-  background-color: #c5d1f1;
-  color: black;
-  margin-top: 11.5%;
+.note {
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
   text-align: center;
-  padding: 1em;
+  font-family: Lusitana, serif;
+  font-size: 16px;
+  line-height: 21px;
+}
+.note .link {
+  color: #888;
+  text-decoration: none;
+}
+.note .link:hover {
+  text-decoration: underline;
 }

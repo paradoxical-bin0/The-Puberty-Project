@@ -7,40 +7,31 @@
     <meta name="viewport" content="width=device-width">
     <title>replit</title>
     <link href="contact.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="component.css">
 </head>
 
 <body>
-    <header>
-        <h1 class="Header">
-            <center>The Puberty Project.</center>
-        </h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/explore">explore</a></li>
-            <li><a href="/contact">Contact</a></li>
-        </ul>
-    </nav>
-    <br>
+    <%- include('./component/navbar') %>
     <main>
-        <section class="contact-form">
-            <h1>Contact Us</h1>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Send Message</button>
+        <section class="get-in-touch">
+            <h1 class="title">Get in touch</h1>
+            <form class="contact-form row">
+               <div class="form-field col x-50">
+                  <input id="name" class="input-text js-input" type="text" required placeholder="Name" autocomplete="off">
+               </div>
+               <div class="form-field col x-50">
+                  <input id="email" class="input-text js-input" type="email" required placeholder="Email">
+               </div>
+               <div class="form-field col x-100">
+                  <input id="message" class="input-text js-input" type="text" required placeholder="Message"  autocomplete="off">
+               </div>
+               <div class="form-field col x-100 align-center">
+                  <input class="submit-btn" type="submit" value="Submit">
+               </div>
             </form>
-        </section>
+         </section>
     </main>
-    <footer>
-        <p>&copy; 2023 The Puberty Project</p>
-    </footer>
+    
 </body>
 
 </html>
