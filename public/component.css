@@ -2,6 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
 @import url(https://fonts.googleapis.com/css?family=Raleway:300);
+
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cinzel:wght@500&family=DM+Serif+Display&family=Dancing+Script:wght@400;500&family=Lobster&family=Unna&display=swap");
 #home_head {
   /* color: #878af0; */
   color: #444444;
@@ -15,15 +17,25 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 3rem 3rem;
-  font-family: "Tilt Prism", cursive;
-  font-family: "Fredoka One", cursive;
+  /* font-family: "Abril Fatface", cursive; */
+  /* font-family: "Cinzel", serif; */
+  /* font-family: "Dancing Script", cursive; */
+  /* font-family: "DM Serif Display", serif; */
+  /* font-family: "Lobster", cursive; */
+  /* font-family: "Unna", serif; */
 }
 
 .navMenu {
   display: flex;
   align-items: center;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  /* font-family: "Poppins", sans-serif; */
+  /* font-family: "Abril Fatface", cursive; */
+  /* font-family: "Abril Fatface", cursive; */
+  /* font-family: "Cinzel", serif; */
+  /* font-family: "Dancing Script", cursive; */
+  /* font-family: "DM Serif Display", serif; */
+  /* font-family: "Lobster", cursive; */
+  /* font-family: "Unna", serif; */
   /* text-transform: uppercase; */
 }
 .navMenu ul {
@@ -36,8 +48,10 @@ header {
 }
 
 .navMenu ul li a {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
+  font-weight: 100;
   text-decoration: none;
+  opacity: 0.6;
   color: black;
 }
 .navMenu ul li:hover {

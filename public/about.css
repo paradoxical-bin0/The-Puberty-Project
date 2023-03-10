@@ -6,7 +6,6 @@
 }
 body {
   background-color: #f6f6f6;
-  font-family: "Poppins", sans-serif;
   padding: 1rem 3rem;
 }
 
@@ -17,6 +16,7 @@ body {
 }
 
 .about_container {
+  font-family: "Poppins", sans-serif;
   background-color: white;
   display: flex;
   height: 800px;
