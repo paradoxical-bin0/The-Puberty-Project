@@ -109,6 +109,10 @@ header {
   border-bottom: 1px solid black;
 }
 
+.topic {
+  margin-right: 40px;
+}
+
 header > h1 {
   background-color: #fff;
   font-size: 24px;
@@ -154,7 +158,7 @@ p {
 }
 
 .square-2 {
-  background-color: #f6c6ea;
+  background-color: #fde0d9;
   position: relative;
   padding: 100px;
   /* margin-top: 8rem; */
