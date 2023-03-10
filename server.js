@@ -7,7 +7,7 @@ app.use(express.static("public"));
 app.use("/puberty", PubertyRoute);
 
 app.get("/", (req, res) => {
-  res.render("Home");
+  res.render("home");
 });
 app.get("/explore", (req, res) => {
   res.render("explore");
@@ -20,5 +20,5 @@ app.get("/about", (req, res) => {
 });
 
 app.listen(3000, () => {
-  console.log("Server is live !");
+  console.log("Server is live : http://localhost:3000/");
 });
