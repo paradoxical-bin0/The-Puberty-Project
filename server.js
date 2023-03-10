@@ -2,9 +2,11 @@ const express = require("express");
 const app = express();
 const ejs = require("ejs");
 const PubertyRoute = require("./Routes/puberty");
+const HormonesRoute = require("./Routes/hormones");
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 app.use("/puberty", PubertyRoute);
+app.use("/hormones", HormonesRoute);
 
 app.get("/", (req, res) => {
   res.render("home");
