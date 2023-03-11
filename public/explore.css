@@ -1,45 +1,34 @@
-@import url("https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300;400;500;600;700&family=Tilt+Prism&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+:root {
+  font-size: 16px;
+  --card-img-height: 250px;
+}
 body {
-  background-color: #f6f6f6;
   padding: 1rem 3rem;
-}
-/* RESET */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
   background: #ebecf0;
-  font-family: "Open Sans", sans-serif;
   min-height: 100vh;
 }
+
 body a {
   text-decoration: none;
   color: #172b4d;
 }
 body h1 {
-  font-family: "Song Myung", serif;
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 1.7rem;
 }
 
 /* DEFAULT STYLE */
-:root {
-  font-size: 16px;
-  --card-img-height: 200px;
-}
-
 .card-container {
   width: 100%;
-  /* height: 100vh; */
   display: flex;
   flex-flow: row wrap;
-  /* justify-content: center; */
   align-items: center;
   transition: all 200ms ease-in-out;
 }
@@ -83,7 +72,7 @@ body h1 {
 }
 .card .card-info .card-about {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 0.75rem 0;
   transition: all 200ms ease-in-out;
@@ -99,26 +88,7 @@ body h1 {
   background: #505f79;
   color: #fff;
 }
-.card .card-info .card-about .card-tag.tag-news {
-  background: #36b37e;
-}
-.card .card-info .card-about .card-tag.tag-deals {
-  background: #ffab00;
-}
-.card .card-info .card-about .card-tag.tag-politics {
-  width: 71px;
-  background: #ff5630;
-}
-.card .card-info .card-title {
-  z-index: 10;
-  font-size: 1.5rem;
-  padding-bottom: 0.75rem;
-  transition: all 350ms ease-in-out;
-}
-.card .card-info .card-creator {
-  padding-bottom: 0.75rem;
-  transition: all 250ms ease-in-out;
-}
+
 .card:hover {
   cursor: pointer;
   box-shadow: 0px 15px 35px rgba(227, 252, 239, 0.1),
@@ -142,7 +112,6 @@ body h1 {
 }
 .card:hover .card-title {
   color: #ebecf0;
-  transform: translate(0, 40px);
 }
 
 .card-1 .card-img,
@@ -160,11 +129,32 @@ body h1 {
 .card-3 .card-img,
 .card-3 .card-img-hovered {
   background-image: var(--card-img-hovered-overlay),
-    url(https://images.unsplash.com/photo-1678379963562-472394e391f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1027&q=80);
+    url(https://assets.volvo.com/is/image/VolvoInformationTechnologyAB/Color-Pride-Flag?qlt=82&wid=1024&ts=1670909834760&dpr=off&fit=constrain&fmt=png-alpha);
 }
-
 .card-4 .card-img,
 .card-4 .card-img-hovered {
   background-image: var(--card-img-hovered-overlay),
     url(https://mycitylinks.in/wp-content/uploads/2021/05/Image1-1.jpg);
+}
+
+.card-5 .card-img,
+.card-5 .card-img-hovered {
+  background-image: var(--card-img-hovered-overlay),
+    url(http://cdn.shopify.com/s/files/1/1416/1856/products/punky-pins-take-care-of-yourself-soft-enamel-pin-29833609478333.jpg?v=1628158419);
+}
+
+.card-6 .card-img,
+.card-6 .card-img-hovered {
+  background-image: var(--card-img-hovered-overlay),
+    url(https://helios-i.mashable.com/imagery/articles/00Ux50bcW4qDUI53qgUi5wf/hero-image.fill.size_1248x702.v1635274213.png);
+}
+
+.card-7 .card-img,
+.card-7 .card-img-hovered {
+  background-image: var(--card-img-hovered-overlay), url();
+}
+
+.card-8 .card-img,
+.card-8 .card-img-hovered {
+  background-image: var(--card-img-hovered-overlay), url();
 }

@@ -13,23 +13,34 @@
 <body>
     <%- include('./component/navbar') %>
     <main>
-        <section class="get-in-touch">
-            <h1 class="title">Get in touch</h1>
-            <form class="contact-form row">
-               <div class="form-field col x-50">
-                  <input id="name" class="input-text js-input" type="text" required placeholder="Name" autocomplete="off">
-               </div>
-               <div class="form-field col x-50">
-                  <input id="email" class="input-text js-input" type="email" required placeholder="Email">
-               </div>
-               <div class="form-field col x-100">
-                  <input id="message" class="input-text js-input" type="text" required placeholder="Message"  autocomplete="off">
-               </div>
-               <div class="form-field col x-100 align-center">
-                  <input class="submit-btn" type="submit" value="Submit">
-               </div>
-            </form>
-         </section>
+      <div class="container">
+         <div class="form-container">
+           <div class="left-container">
+             <div class="left-inner-container">
+             <h2>Let's Chat</h2>
+             <p>Whether you have a question or simply want to connect.</p>
+               <p>Feel free to send me a message in the contact form</p>
+           </div>
+             </div>
+           <div class="right-container">
+             <div class="right-inner-container">
+               <form action="#">
+                <h2 class="lg-view">Contact</h2>
+             <h2 class="sm-view">Let's Chat</h2>
+                <div class="social-container">
+                   <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                   <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                   <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                 <input type="text" placeholder="Name "  />
+             <input type="email" placeholder="Email " />
+                 <textarea rows="4" placeholder="Message"></textarea>
+                <button>Submit</button>
+             </form>
+             </div>
+           </div>
+         </div>
+       </div>
     </main>
     
 </body>

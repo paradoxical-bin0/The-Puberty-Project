@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300;400;500;600;700&family=Tilt+Prism&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -16,13 +16,14 @@ body {
 }
 
 .about_container {
-  font-family: "Poppins", sans-serif;
   background-color: white;
   display: flex;
-  height: 800px;
+  /* height: 800px; */
   width: 1200px;
   border-radius: 5%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: "Lato";
+  font-size: 1.1rem;
 }
 
 p {
