@@ -14,7 +14,7 @@ main {
   padding: 1em;
   display: flex;
   justify-content: center;
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
 }
 
 .container {
@@ -92,6 +92,7 @@ textarea {
   margin: 8px 0;
   width: 100%;
   font-size: 0.8rem;
+  font-family: "Lato", sans-serif;
 }
 
 input:focus,
@@ -112,6 +113,7 @@ button {
   letter-spacing: 1px;
   text-transform: uppercase;
   transition: transform 80ms ease-in;
+  font-family: "Lato", sans-serif;
   cursor: pointer;
 }
 
