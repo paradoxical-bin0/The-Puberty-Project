@@ -1,42 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300;400;500;600;700&family=Tilt+Prism&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
-@import url(https://fonts.googleapis.com/css?family=Raleway:300);
-
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cinzel:wght@500&family=DM+Serif+Display&family=Dancing+Script:wght@400;500&family=Lobster&family=Unna&display=swap");
 #home_head {
-  /* color: #878af0; */
   color: #444444;
   font-size: 2.5rem;
   font-weight: 300;
 }
 header {
-  /* background-color: coral; */
   height: 4rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 3rem 3rem;
-  /* font-family: "Abril Fatface", cursive; */
-  /* font-family: "Cinzel", serif; */
-  /* font-family: "Dancing Script", cursive; */
-  /* font-family: "DM Serif Display", serif; */
-  /* font-family: "Lobster", cursive; */
-  /* font-family: "Unna", serif; */
 }
 
 .navMenu {
   display: flex;
   align-items: center;
-  /* font-family: "Poppins", sans-serif; */
-  /* font-family: "Abril Fatface", cursive; */
-  /* font-family: "Abril Fatface", cursive; */
-  /* font-family: "Cinzel", serif; */
-  /* font-family: "Dancing Script", cursive; */
-  /* font-family: "DM Serif Display", serif; */
-  /* font-family: "Lobster", cursive; */
-  /* font-family: "Unna", serif; */
-  /* text-transform: uppercase; */
 }
 .navMenu ul {
   display: flex;
@@ -60,48 +37,4 @@ header {
 }
 .navMenu a:hover {
   color: #ee78c7;
-}
-
-.navMenu .dot {
-  width: 6px;
-  height: 6px;
-  background: #fddb3a;
-  border-radius: 50%;
-  opacity: 0;
-  -webkit-transform: translateX(30px);
-  transform: translateX(30px);
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-
-.navMenu a:nth-child(1):hover ~ .dot {
-  -webkit-transform: translateX(30px);
-  transform: translateX(30px);
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-  opacity: 1;
-}
-
-.navMenu a:nth-child(2):hover ~ .dot {
-  -webkit-transform: translateX(110px);
-  transform: translateX(110px);
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-  opacity: 1;
-}
-
-.navMenu a:nth-child(3):hover ~ .dot {
-  -webkit-transform: translateX(200px);
-  transform: translateX(200px);
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-  opacity: 1;
-}
-
-.navMenu a:nth-child(4):hover ~ .dot {
-  -webkit-transform: translateX(285px);
-  transform: translateX(285px);
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-  opacity: 1;
 }
