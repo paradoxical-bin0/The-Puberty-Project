@@ -11,10 +11,13 @@ body {
 
 #img {
   height: 400px;
-  width: 400px;
-  margin-top: 50%;
+  /* width: 400px; */
+  /* margin-top: 50%; */
 }
-
+.img-container {
+  display: flex;
+  align-items: center;
+}
 .about_container {
   background-color: white;
   display: flex;
