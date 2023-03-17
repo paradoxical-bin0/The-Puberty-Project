@@ -40,7 +40,7 @@
 }
 
 .btn-41 {
-  border: 2px solid rgb(255, 255, 255);
+  /* border: 2px solid rgb(255, 255, 255); */
   z-index: 1;
   color: black;
   text-decoration: none;
@@ -97,7 +97,7 @@ header {
   position: fixed;
   top: 0;
   width: 98.5%;
-  background-color: #fefefe;
+  /* background-color: #fefefe; */
   border-bottom: 1px solid #ccc;
   padding: 15px;
   display: flex;
@@ -105,8 +105,10 @@ header {
   align-items: center;
   font-family: "Poppins", sans-serif;
   z-index: 10;
-  border-bottom: 1px solid rgb(0, 0, 0, 0.3);
+  /* border-bottom: 1px solid rgb(0, 0, 0, 0.3); */
   backdrop-filter: blur(25px);
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
 }
 
 .topic {
@@ -114,7 +116,7 @@ header {
 }
 
 header > h1 {
-  background-color: #fff;
+  /* background-color: #fff; */
   /* font-size: 24px; */
   margin: 0;
 }
@@ -123,6 +125,7 @@ section {
   border-bottom: 2px solid #ff5aee;
   margin-bottom: 1px;
   display: inline-block;
+  padding: 2rem;
 }
 
 .square-1 {
