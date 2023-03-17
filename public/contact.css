@@ -10,12 +10,11 @@ body {
 }
 
 main {
-  /* max-width: 800px; */
   margin: 0 auto;
   padding: 1em;
-  /* position: relative; */
   display: flex;
   justify-content: center;
+  font-family: "Lato";
 }
 
 .container {
@@ -28,7 +27,6 @@ main {
   max-width: 100%;
   min-height: 480px;
   min-width: 370px;
-  font-family: "Lato";
 }
 
 h2 {
@@ -43,7 +41,8 @@ h2 {
 .left-container {
   flex: 1;
   height: 480px;
-  background-color: #d3c3ff;
+  /* background-color: #d3c3ff; */
+  background-color: #444;
   color: black;
 }
 
@@ -101,9 +100,11 @@ textarea:focus {
 }
 
 button {
+  margin-top: 12px;
   border-radius: 20px;
   border: none;
-  background-color: #d3c3ff;
+  background-color: #444;
+  /* background-color: #d3c3ff; */
   color: #ffffff;
   font-size: 12px;
   font-weight: bold;

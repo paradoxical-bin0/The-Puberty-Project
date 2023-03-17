@@ -123,7 +123,8 @@ body h1 {
 .card-2 .card-img,
 .card-2 .card-img-hovered {
   background-image: var(--card-img-hovered-overlay),
-    url(https://www.imago-images.com/bild/st/0158540457/w.jpg);
+    /* url(https://www.imago-images.com/bild/st/0158540457/w.jpg); */
+      url(https://domf5oio6qrcr.cloudfront.net/medialibrary/11298/99156446-081f-4f20-9084-f2d448a72b0c.jpg);
 }
 
 .card-3 .card-img,
