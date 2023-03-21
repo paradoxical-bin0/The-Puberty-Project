@@ -127,6 +127,44 @@ section {
   padding: 2rem;
 }
 
+ul > li {
+  font-size: 18px;
+  font-weight: 500;
+}
+ol > li {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.link {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+.link:link {
+  color: #fe90f3;
+}
+
+.link:visited {
+  color: #fb60ec;
+}
+
+.link:focus {
+  border-bottom: 1px solid;
+  background: #ff91f4;
+}
+
+.link:hover {
+  border-bottom: 1px solid;
+  background: #fbd4f8;
+}
+
+.link:active {
+  background: #ffcbfa;
+  color: #fab5f3;
+}
+
 .square-1 {
   /* background-color: #fff1fc; */
   position: relative;

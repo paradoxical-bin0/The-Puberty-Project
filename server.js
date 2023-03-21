@@ -14,6 +14,7 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const config = require("./config");
 const model = require("./model/model");
+
 // mongoodb connection
 mongoose
   .connect(config.mongoDb.Url)
