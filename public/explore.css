@@ -152,7 +152,8 @@ body h1 {
 
 .card-7 .card-img,
 .card-7 .card-img-hovered {
-  background-image: var(--card-img-hovered-overlay), url();
+  background-image: var(--card-img-hovered-overlay), 
+    url(https://blogimage.vantagefit.io/vfitimages/2021/06/feature-image-red.png);
 }
 
 .card-8 .card-img,
