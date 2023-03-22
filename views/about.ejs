@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>replit</title>
-    <link href="about.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="component.css" />
-    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
-  </head>
 
-  <body>
-    <%- include('./component/navbar') %>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>replit</title>
+  <link href="about.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="component.css" />
+  <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+</head>
+
+<body>
+  <%- include('./component/navbar') %>
     <center>
+      <center>
+        <h2 id="about">________About Us________</h2>
+      </center>
       <div class="about_container">
-        <div class="img-container">
+        <!-- <div class="img-container">
           <img id="img" src="/images/about-img.jpg" />
-        </div>
+        </div> -->
         <div>
-          <h2 id="about">________About Us________</h2>
           <p>
             Welcome to 'The Puberty Project', a safe and informative space for
             teenagers aged 13-18 to learn about topics related to puberty,
@@ -35,7 +38,7 @@
             easy to understand and approachable. Our goal is to provide you with
             the knowledge and resources you need to make informed decisions
             about your body and health.
-            <br /><br />
+            <br />
             At 'The Puberty Project', we believe that education is key to
             healthy and happy relationships, both with yourself and others. We
             encourage you to explore our website and take advantage of the
@@ -48,7 +51,18 @@
             We're here to support you at every step of the way!🤍
           </p>
         </div>
+        <div class="img-container">
+          <img id="img"
+            src="https://img.freepik.com/free-vector/focused-tiny-people-reading-books_74855-5836.jpg?w=996&t=st=1679486581~exp=1679487181~hmac=90810078568b36016b4c12c453c29eaead79acd3d7013c0b2777eb42a92b034f">
+          <img id="img"
+            src="https://img.freepik.com/free-vector/young-people-being-happy_23-2148453662.jpg?w=740&t=st=1679484727~exp=1679485327~hmac=5f68ee753a876f50b7cda234a6dc6551cff571ce3f807e7906e7b9e8727284ad">
+          <img id="img"
+            src="https://img.freepik.com/free-vector/college-university-students-group-young-happy-people-standing-isolated-white-background_575670-66.jpg?w=826&t=st=1679484623~exp=1679485223~hmac=c99e12fadc3ae9e3a05945c210ffc1673f994969550ae13974102872e4c06268" />
+          <!-- <img id="img" src="https://cdn-icons-png.flaticon.com/512/3673/3673945.png" /> -->
+
+        </div>
       </div>
     </center>
-  </body>
+</body>
+
 </html>
