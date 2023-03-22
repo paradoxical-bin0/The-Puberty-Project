@@ -28,7 +28,7 @@ body {
   /* align-items: center; */
 }
 .about_container {
-  background-color:grey;
+  background-color:#bfbfbf;
   display: flex;
   /* height: 800px; */
   width: 1200px;
