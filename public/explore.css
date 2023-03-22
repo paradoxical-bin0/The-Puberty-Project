@@ -124,7 +124,8 @@ body h1 {
 .card-2 .card-img-hovered {
   background-image: var(--card-img-hovered-overlay),
     /* url(https://www.imago-images.com/bild/st/0158540457/w.jpg); */
-      url(https://domf5oio6qrcr.cloudfront.net/medialibrary/11298/99156446-081f-4f20-9084-f2d448a72b0c.jpg);
+      /* url(https://domf5oio6qrcr.cloudfront.net/medialibrary/11298/99156446-081f-4f20-9084-f2d448a72b0c.jpg); */
+      url(https://ggsc.s3.amazonaws.com/images/uploads/Is_Oxytocin_Really_the_Love_Hormone.jpg);
 }
 
 .card-3 .card-img,
@@ -135,7 +136,8 @@ body h1 {
 .card-4 .card-img,
 .card-4 .card-img-hovered {
   background-image: var(--card-img-hovered-overlay),
-    url(https://mycitylinks.in/wp-content/uploads/2021/05/Image1-1.jpg);
+    /* url(https://mycitylinks.in/wp-content/uploads/2021/05/Image1-1.jpg); */
+    url(https://img.freepik.com/free-vector/feminine-hygiene-products-concept_23-2148649656.jpg?w=740&t=st=1679484527~exp=1679485127~hmac=b7031fa68125ac8da58ac607c38dee53134120d4dc65af009f0694ece6f705fd);
 }
 
 .card-5 .card-img,
