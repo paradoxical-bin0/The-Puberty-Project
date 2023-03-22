@@ -158,5 +158,6 @@ body h1 {
 
 .card-8 .card-img,
 .card-8 .card-img-hovered {
-  background-image: var(--card-img-hovered-overlay), url();
+  background-image: var(--card-img-hovered-overlay), 
+    url(https://img.freepik.com/free-vector/parents-preparing-cute-daughter-school-love-study-backpack-flat-illustration-cartoon-illustration_74855-14475.jpg);
 }
