@@ -12,6 +12,12 @@
   width: 6px;
 }
 
+::selection {
+  background: #e84e89;
+  color: #fff;
+  text-shadow: none;
+}
+
 ::-webkit-scrollbar-track {
   background: #fefefe;
   border: 1px solid black;

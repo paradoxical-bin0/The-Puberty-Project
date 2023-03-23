@@ -10,6 +10,11 @@
 ::-webkit-scrollbar {
   width: 6px;
 }
+::selection {
+  background: #e84e89;
+  color: #fff;
+  text-shadow: none;
+}
 
 /* Track */
 ::-webkit-scrollbar-track {
