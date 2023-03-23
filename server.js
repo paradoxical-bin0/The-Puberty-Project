@@ -2,6 +2,7 @@
 const express = require("express");
 const ejs = require("ejs");
 const app = express();
+const bodyParser = require("body-parser");
 const PubertyRoute = require("./Routes/puberty");
 const HormonesRoute = require("./Routes/hormones");
 const EducationRoute = require("./Routes/education");
@@ -12,10 +13,10 @@ const ParentsRoute = require("./Routes/parents");
 const PrideRoute = require("./Routes/pride-flag");
 const CommentRoute = require("./Routes/comment");
 const PostCmt = require("./Routes/postcmt");
-const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const config = require("./config");
 const model = require("./model/model");
+const RecivedRouter = require("./Routes/formHandle");
 
 // mongoodb connection
 mongoose
@@ -28,10 +29,10 @@ mongoose
   });
 
 // app use and set
+app.use(express.urlencoded({ extended: true }));
+app.use(bodyParser.json());
 app.set("view engine", "ejs");
 app.use(express.static("public"));
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
 app.use("/puberty", PubertyRoute);
 app.use("/hormones", HormonesRoute);
 app.use("/education", EducationRoute);
@@ -42,6 +43,7 @@ app.use("/parents", ParentsRoute);
 app.use("/pride-flag", PrideRoute);
 app.use("/comment", CommentRoute);
 app.use("/postcmt", PostCmt);
+app.use("/recived", RecivedRouter);
 
 // app routes
 app.get("/", (req, res) => {
