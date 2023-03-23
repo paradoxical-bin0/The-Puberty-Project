@@ -61,3 +61,55 @@ p {
   margin-bottom: 1%;
   margin-top: 0%;
 }
+
+
+
+
+
+@media screen and (max-width: 800px) {
+  
+  #home_head {
+    position: relative;
+    right: 60px;
+    top: 20px;
+    font-size: 2rem;
+  }
+  
+
+  .about_container{
+    position: relative;
+    top: 90px;
+    width: 800px;
+    right: 47px;
+    /* margin-top: 150px; */
+  }
+
+
+  #about {
+    position: relative;
+    top: 50px;
+    margin: auto;
+    /* left: 200px; */
+  }
+
+}
+
+
+
+
+@media screen and (max-width: 1500px) {
+  
+  #home_head {
+    position: relative;
+    right: 60px;
+    top: 20px;
+    font-size: 2rem;
+  }
+  
+
+  .navMenu ul{
+    position: relative;
+    right: 30px;
+  }
+
+}

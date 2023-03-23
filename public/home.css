@@ -118,3 +118,48 @@ h1 {
   width: 100%;
   transition: 800ms ease all;
 }
+
+
+
+
+@media screen and (max-width: 1000px) {
+  .home{
+    flex-direction: column;
+    /* margin-top: 230px; */
+    margin-top: 30%;
+    /* margin-left: 230px; */
+    margin-left: 1%;
+  }
+  #home_head {
+    position: relative;
+    right: 60px;
+    top: 20px;
+    font-size: 2rem;
+  }
+  .navMenu ul{
+    position: relative;
+    right: 30px;
+  }
+  
+
+}
+
+
+@media screen and (max-width: 600px) {
+  .home{
+    flex-direction: column;
+    margin-top: 230px;
+    margin-left: 230px;
+    
+  }
+  #home_head {
+    position: relative;
+    right: 60px;
+    top: 20px;
+    font-size: 2rem;
+  }
+  .navMenu ul{
+    position: relative;
+    right: 30px;
+  }
+}

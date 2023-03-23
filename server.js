@@ -78,6 +78,7 @@ app.get("/faq", function (req, res) {
   res.render("faq");
 });
 
+
 app.listen(3000, () => {
   console.log("Server is live : http://localhost:3000/");
 });

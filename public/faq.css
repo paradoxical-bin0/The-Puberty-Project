@@ -36,3 +36,25 @@
 span {
   border-bottom: 2.5px solid rgb(206, 206, 206);
 }
+
+
+
+@media screen and (max-width: 600px) {
+  .faq-block{
+    width: 140vw;
+    position: relative;
+    left: 100;
+  }
+    
+  #home_head {
+    position: relative;
+    right: 60px;
+    top: 20px;
+    font-size: 2rem;
+  }
+  .navMenu ul{
+    position: relative;
+    right: 30px;
+  }
+}
+
