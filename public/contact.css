@@ -138,3 +138,23 @@ button:hover {
 form p {
   text-align: left;
 }
+
+
+@media screen and (max-width: 600px) {
+  main {
+    position: relative;
+    left: 130px;
+    top: 150px;
+  }
+    
+  #home_head {
+    position: relative;
+    right: 60px;
+    top: 20px;
+    font-size: 2rem;
+  }
+  .navMenu ul{
+    position: relative;
+    right: 30px;
+  }
+}
