@@ -8,6 +8,11 @@ body {
   background-color: #f6f6f6;
   padding: 1rem 3rem;
 }
+::selection {
+  background: #e84e89;
+  color: #fff;
+  text-shadow: none;
+}
 
 #img {
   height: 210px;
@@ -28,7 +33,7 @@ body {
   /* align-items: center; */
 }
 .about_container {
-  background-color:#bfbfbf;
+  background-color: #bfbfbf;
   display: flex;
   /* height: 800px; */
   width: 1200px;
@@ -45,7 +50,7 @@ p {
   margin: 1%;
   padding: 3%;
   border-radius: 2%;
-  background-color:white;
+  background-color: white;
   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
 }
 
