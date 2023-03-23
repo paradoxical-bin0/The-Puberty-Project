@@ -137,7 +137,7 @@ body h1 {
 .card-4 .card-img-hovered {
   background-image: var(--card-img-hovered-overlay),
     /* url(https://mycitylinks.in/wp-content/uploads/2021/05/Image1-1.jpg); */
-    url(https://img.freepik.com/free-vector/feminine-hygiene-products-concept_23-2148649656.jpg?w=740&t=st=1679484527~exp=1679485127~hmac=b7031fa68125ac8da58ac607c38dee53134120d4dc65af009f0694ece6f705fd);
+      url(https://img.freepik.com/free-vector/feminine-hygiene-products-concept_23-2148649656.jpg?w=740&t=st=1679484527~exp=1679485127~hmac=b7031fa68125ac8da58ac607c38dee53134120d4dc65af009f0694ece6f705fd);
 }
 
 .card-5 .card-img,
@@ -149,17 +149,19 @@ body h1 {
 .card-6 .card-img,
 .card-6 .card-img-hovered {
   background-image: var(--card-img-hovered-overlay),
-    url(https://helios-i.mashable.com/imagery/articles/00Ux50bcW4qDUI53qgUi5wf/hero-image.fill.size_1248x702.v1635274213.png);
+    /* url(https://helios-i.mashable.com/imagery/articles/00Ux50bcW4qDUI53qgUi5wf/hero-image.fill.size_1248x702.v1635274213.png);
+     */
+      url(https://img.freepik.com/free-vector/sexual-education-abstract-concept-vector-illustration-sexual-health-teaching-sex-education-lesson-school-human-sexuality-emotional-relations-responsibilities-abstract-metaphor_335657-1458.jpg?w=826&t=st=1679550219~exp=1679550819~hmac=6f9cd55d9e24871d32fc8334761751f8458adfd8c0cf3ed23cb807754e129c3a);
 }
 
 .card-7 .card-img,
 .card-7 .card-img-hovered {
-  background-image: var(--card-img-hovered-overlay), 
+  background-image: var(--card-img-hovered-overlay),
     url(https://blogimage.vantagefit.io/vfitimages/2021/06/feature-image-red.png);
 }
 
 .card-8 .card-img,
 .card-8 .card-img-hovered {
-  background-image: var(--card-img-hovered-overlay), 
+  background-image: var(--card-img-hovered-overlay),
     url(https://img.freepik.com/free-vector/parents-preparing-cute-daughter-school-love-study-backpack-flat-illustration-cartoon-illustration_74855-14475.jpg);
 }
